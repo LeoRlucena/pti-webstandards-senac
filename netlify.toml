@@ -5,8 +5,3 @@ publish = "src/landing-page"
   for = "/assets/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-
-[[headers]]
-  for = "/css/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
